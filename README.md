@@ -31,7 +31,13 @@ Anything in Razor Block that is not C#, will be rendered as HTML. For exmaple
 }
 ```
 
-Will be rendered as `Hello Hello Hello`
+Will be rendered in HTML as 
+
+```html
+<span>Hello</span>
+<span>Hello</span>
+<span>Hello</span>
+```
 
 ## Use Variables in HTML
 We can use C# variables in our HTML code by prefixing its name with `@`
