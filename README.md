@@ -12,21 +12,25 @@ Razor is a markup syntax for embedding server-based code into webpages. The Razo
 
 ## Razor Code Block
 A razor block consists of 
-```razor
+
+```
 @{
   //Your code here
 }
 ```
+
 You can use any C# code in razor block.
 
 ## Render HTML
 Anything in Razor Block that is not C#, will be rendered as HTML. For exmaple
-```razor
+
+```c#
 @{
   for(int i = 0; i < 3; i++)
     <span>Hello</span>
 }
 ```
+
 Will be rendered as `Hello Hello Hello`
 
 ## Use Variables in HTML
