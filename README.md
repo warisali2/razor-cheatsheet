@@ -15,3 +15,4 @@ A razor block consists of
   //Your code here
 }
 ```
+You can use any C# code in razor block.
