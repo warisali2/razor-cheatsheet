@@ -6,6 +6,7 @@ A simple razor cheatsheet
 * [Razor Code Block](#razor-code-block)
 * [Render HTML](#render-html)
 * [Use Variables in HTML](#use-variables-in-html)
+* [Section](#section)
 
 ## Introduction
 Razor is a markup syntax for embedding server-based code into webpages. The Razor syntax consists of Razor markup, C#, and HTML. Files containing Razor generally have a .cshtml file extension.
@@ -62,4 +63,13 @@ It will be rendered as
 
 ```html
 <p>@myVar</p>
+```
+
+## Section
+We can define a section that can be used in a layout as follows:
+```html
+@section section_name
+{
+  <h1>Hello Section</h1>
+}
 ```
